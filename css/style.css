@@ -1,0 +1,94 @@
+body {
+	display: grid;
+	height: 100vmin;
+	align-items: center;
+	justify-content: center;
+	background-color: hsl(217, 54%, 11%);
+	font-family: 'Outfit', sans-serif!important;
+}
+
+#card-component {
+	width: 300px;
+	display: flex;
+	color: #8198b4;
+	padding: 25px 20px;
+	align-items: center;
+	border-radius: 15px;
+	flex-direction: column;
+	background-color: hsl(216, 50%, 16%);
+	box-shadow: 0 0 50px hsl(216, 54%, 8%);
+}
+
+.card {
+	position: relative;
+	overflow: hidden;
+	height: 300px;
+}
+
+.cube-image {
+	height: 300px;
+	max-width: 300px;
+	border-radius: 10px;
+}
+
+.card:hover {
+	border-radius: 10px;
+}
+
+.card:hover .image-hover {
+	width: 50px;
+	height: 50px;
+	padding: 150px;
+	cursor: pointer;
+	position: absolute;
+	top: calc(0% - 25px);
+	left: calc(0% - 25px);
+	background-color: rgba(0, 255, 247, 0.5);
+}
+
+.title {
+	color: hsl(0, 0%, 100%);
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.paragraph {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.info {
+	margin: 10px 0;
+}
+
+.price {
+	color: hsl(178, 100%, 50%);
+	float: left;
+}
+
+.days-left {
+	float: right;
+}
+
+.footer-image {
+	vertical-align: middle;
+	margin-right: 10px;
+	border: 1px solid hsl(0, 0%, 100%);
+	border-radius: 100%;
+	width: 30px;
+}
+
+.line {
+	border-top: 1px solid hsl(215, 32%, 27%);
+	clear: both;
+	margin: 20px 0;
+}
+
+.text-color {
+	color: hsl(0, 0%, 100%);
+	cursor: pointer;
+}
+
+.text-color:hover {
+	color: hsl(178, 100%, 50%);
+}
