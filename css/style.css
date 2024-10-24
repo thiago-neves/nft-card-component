@@ -77,9 +77,10 @@ body {
 .card {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-200);
+  gap: var(--spacing-300);
   padding: var(--spacing-300);
   border-radius: var(--radius-200);
+  padding-bottom: var(--spacing-500);
   background-color: var(--very-dark-blue-card);
   box-shadow: 0 0 50px var(--very-dark-blue-bg);
 }
