@@ -85,6 +85,13 @@ body {
   box-shadow: 0 0 50px var(--very-dark-blue-bg);
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+  align-items: center;
+}
+
 .image {
   width: 300px;
   aspect-ratio: 1;
@@ -101,7 +108,7 @@ body {
   height: 300px;
   cursor: pointer;
   position: absolute;
-  transition: all .3s;
+  transition: all 0.3s;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: var(--radius-100);
